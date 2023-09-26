@@ -1,0 +1,5 @@
+--query 1
+SELECT num
+FROM table_name
+GROUP BY num
+HAVING COUNT(*) >= 3;
